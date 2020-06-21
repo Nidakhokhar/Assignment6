@@ -94,6 +94,9 @@
 //     }else("not found")
 // }
 
+
+
+
 /// Task 31-34
 
 // Question 1. Write a program that displays current date and time in
@@ -109,9 +112,33 @@
 // var now = new Date();
 // var theMonth = now.getMonth();
 // var nameOfMonth = monthsName[theMonth];
-// document.write(nameOfMonth);
+// document.write("Current Month:" + "" + " \n"+ nameOfMonth);
 
 // var a = new Date();
 // var b = a.toString();
 // var c = b.slice(3,7)
-// document.write(c);
+// document.write("Current Month:" + "" + " \n"+ c);
+
+
+// Question 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show
+// Sun.
+
+//  var a = new Date();
+// var b = a.toString();
+//  var c = b.slice(0,3)
+// document.write("Today is " + c);
+
+// Question 4. Write a program that displays a message “It’s Fun day” if
+// its Saturday or Sunday today.
+
+// var c = prompt("enter your day")
+// var a = "saturday";
+// var b = "sunday" ;
+
+// if ((c === a || c === b) ) {
+//     alert( "It’s Fun day”");
+// }
+// else {
+//    alert("workday");
+// }
